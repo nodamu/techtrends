@@ -1,10 +1,10 @@
-# TechTreds Web Application
+# TechTrends
 
-This is a Flask application that lists the latest articles within the cloud-native ecosystem.
+_TechTrends_ is an online website used as a news sharing platform, that enables consumers to access the latest news within the cloud-native ecosystem. In addition to accessing the available articles, readers are able to create new media articles and share them.
 
-## Run 
+The web application is written using the `Python Flask framework`. It uses `SQLite`, a lightweight disk-based database to store the submitted articles.
 
-To run this application there are 2 steps required:
+The main components of the prototype of the application are:
+![Main components of the TechTrends application](img/components.png)
 
-1. Initialize the database by using the `python init_db.py` command. This will create or overwrite the `database.db` file that is used by the web application.
-2.  Run the TechTrends application by using the `python app.py` command. The application is running on port `3111` and you can access it by querying the `http://127.0.0.1:3111/` endpoint.
+I assumed the role of a platform engineer, to _package_ and _deploy_ TechTrends to _Kubernetes_ using a CI/CD pipeline.
