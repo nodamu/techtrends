@@ -5,6 +5,6 @@ _TechTrends_ is an online website used as a news sharing platform, that enables 
 The web application is written using the `Python Flask framework`. It uses `SQLite`, a lightweight disk-based database to store the submitted articles.
 
 The main components of the prototype of the application are:
-![Main components of the TechTrends application](img/components.png)
+![Main components of the TechTrends application](components.png)
 
 I assumed the role of a platform engineer, to _package_ and _deploy_ TechTrends to _Kubernetes_ using a CI/CD pipeline.
