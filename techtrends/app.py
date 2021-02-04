@@ -101,6 +101,7 @@ def metrics():
     return data
 
 
+#Function that logs messages
 def log_message(msg):
     app.logger.info('{time} | {message}'.format(
         time=datetime.now().strftime("%m/%d/%Y, %H:%M:%S"), message=msg))
