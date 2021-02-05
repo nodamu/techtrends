@@ -1,0 +1,15 @@
+namespace:
+  name: staging
+
+replicaCount: 3
+
+image:
+  imagePullPolicy: Always
+
+service:
+  port: 5111
+
+resources:
+  requests:
+    memory: 90Mi
+    cpu: 300m
