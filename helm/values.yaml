@@ -4,7 +4,7 @@ namespace:
 image:
   repository: mikeattara/techtrends
   tag: latest
-  imagePullPolicy: IfNotPresent
+  pullPolicy: IfNotPresent
 
 replicaCount: 1
 
