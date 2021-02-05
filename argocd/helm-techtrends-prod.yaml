@@ -5,13 +5,13 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: prod
+    namespace: default
     server: https://kubernetes.default.svc
   project: default
   source:
     helm:
       valueFiles:
         - values-prod.yaml
-    path: /helm/
+    path: helm
     repoURL: https://github.com/mikeattara/techtrends
     targetRevision: HEAD

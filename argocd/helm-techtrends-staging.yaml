@@ -5,13 +5,13 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: staging
+    namespace: default
     server: https://kubernetes.default.svc
   project: default
   source:
     helm:
       valueFiles:
         - values-staging.yaml
-    path: /helm/
+    path: helm
     repoURL: https://github.com/mikeattara/techtrends
     targetRevision: HEAD
